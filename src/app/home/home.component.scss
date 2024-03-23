@@ -1,0 +1,73 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.load {
+  animation: slide 2s;
+}
+
+.slider {
+  // display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation:  slide 20s infinite;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.principal {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.logo-container {
+  // display: flex;
+  position: relative; /* Ensure the logo container stays in the correct position */
+}
+
+.logo {
+  // display: flex;
+  opacity: 1; /* Set the opacity of the logo as needed */
+}
+
+// .overlay {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   // background-color: rgba(0, 0, 0, 0.4); /* Dimming effect */
+// }
+
+
+@keyframes slide {
+  0% {
+    background-image: url('../../assets/images/image5.png');
+  }
+  20% {
+    background-image: url('../../assets/images/image3.png');
+  }
+  40% {
+    background-image: url('../../assets/images/image4.png');
+  }
+  60% {
+    background-image: url('../../assets/images/image6.png');
+  }
+  80% {
+    background-image: url('../../assets/images/image1.jpg');
+  }
+  100% {
+    background-image: url('../../assets/images/image2.png');
+  }
+}
