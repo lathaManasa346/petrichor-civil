@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  imageUrl = "assets/images/Petrichor _logo1.png";
+  imageUrl = "assets/Petrichor _logo1.png";
 
   constructor() { }
 

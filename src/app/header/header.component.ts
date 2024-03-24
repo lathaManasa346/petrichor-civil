@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  imageUrl = "assets/images/Petrichor _logo1.png";
+  imageUrl = "assets/Petrichor _logo1.png";
 
   constructor() { }
 

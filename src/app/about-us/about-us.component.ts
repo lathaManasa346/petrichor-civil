@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
   imageURLs: string[] = [
-    '../../assets/images/aboutus7.jpeg',
-    '../../assets/images/aboutus8.png',
-    '../../assets/images/aboutuspic4.jpeg',
-    '../../assets/images/aboutus9.jpeg'
+    '../../assets/aboutus7.jpeg',
+    '../../assets/aboutus8.png',
+    '../../assets/aboutuspic4.jpeg',
+    '../../assets/aboutus9.jpeg'
 
   ];
 
