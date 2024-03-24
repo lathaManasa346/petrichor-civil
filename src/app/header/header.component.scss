@@ -1,71 +1,4 @@
 
-// .sticky-header {
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   background-color: #333; /* Change this to the desired background color */
-//   color: #fff; /* Change this to the desired text color */
-//   padding: 10px; /* Adjust padding as needed */
-//   z-index: 100; /* Ensure it's on top of other content */
-// }
-
-
-
-
-//   .content {
-//     padding-top: 60px;
-//   }
-
-//   .header-background{
-//     background-color: rgba(28,63,102,0.5);
-//     padding-top: 1em;
-//     // padding: 15px;
-//     // margin-top: 21px;πf
-//     // margin-bottom: 31px;
-//   }
-
-//   .nav-links{
-//     color:white;
-//     padding-bottom: 1em;
-//   }
-
-//   .about-header{
-//     margin: 0 81px 0 198px;
-//     color:white;
-//     // font-family: Consolas, monospace;
-//     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-
-//   }
-
-//   .about-header:hover {
-//     text-decoration: underline;
-//     font-weight: 700;
-// }
-
-
-//   .services-header{
-//     color:white;
-//     padding: 6px 0px  13px 0px;
-//     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-//   }
-
-
-//   .services-header:hover{
-//     text-decoration: underline;
-//     font-weight: 700;
-//   }πro
-//   .header-styles{
-//     position:fixed;
-//     width:100%;
-//   }
-
-//   .content{
-//     padding-top: 12em;
-//   }
-
-//  ________________________________________________________________________________________________
-
 
 *{
   box-sizing:border-box;
@@ -93,14 +26,20 @@ header{
 width:100%
 }
 
-.logo{
+.logo::before{
+  content: url('../../assets/images/Petrichor\ _LOGO.png');
+}
+
+.logo {
   cursor:pointer;
   width:70px;
   height:50px;
-  background-color: white;
+  // background-color: white;
   background: radial-gradient(circle, white, #073761);
 
 }
+
+
 
 .nav_links{
   list-style: none;
