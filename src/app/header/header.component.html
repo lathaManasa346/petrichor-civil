@@ -1,14 +1,74 @@
-
-<header>
+<!--
+ <header>
   <img class="logo" routerLink = "" src = "../../assets/Petrichorlogo1.png" >
-  <nav>
-    <ul class="nav_links">
+  <input type = "checkbox" id="menu-bar">
+  <label for ="menu-bar">Menu</label>
+  <div class="col-12">
+    <nav class="nav_links">
+      <ul>
       <li><a routerLink = "">HOME</a></li>
+      <li><a routerLink = "projects">PROJECTS</a> </li>
       <li><a routerLink = "aboutUS">ABOUT US</a></li>
       <li> <a routerLink = "services">SERVICES</a></li>
-      <li> <a routerLink = "references">REFERENCES</a></li>
-    </ul>
-  </nav>
-  <a class="cta" href="#"><button>CONTACT</button></a>
-</header>
+      </ul>
+      <li> <a routerLink = "">PortFolio</a></li>
+    </nav>
+  </div>
 
+ <a class="cta" href="#"><button>CONTACT</button></a>
+</header> -->
+
+
+<!-- <header>
+  <img class="logo" routerLink = "" src = "../../assets/Petrichorlogo1.png" >
+
+  <input type = "checkbox" id="menu-bar">
+  <label class = "menuStyle" for ="menu-bar">Menu</label>
+<div class="col-12">
+  <nav class = "navbar">
+    <ul>
+      <li><a routerLink = "">Home</a></li>
+    <li><a routerLink = "projects">Projects</a> </li>
+    <li><a routerLink = "aboutUS">About US</a></li>
+    <li> <a routerLink = "">PortFolio</a>
+    <ul>
+      <li><a href="#"> Commercial </a></li>
+      <li><a href="#"> Land Development </a></li>
+    </ul>
+  </li>
+
+    <li><a href="#">Contact </a></li>
+  </ul>
+  </nav>
+</div>
+</header> -->
+
+<div class="container">
+  <header>
+    <img class= "logo" src="../../assets/Petrichorlogo1.png" alt="Logo">
+
+    <input type = "checkbox" id="menu-bar">
+    <label for ="menu-bar">Menu</label>
+
+    <nav class = "navbar">
+      <ul>
+        <li><a routerLink = "">Home</a></li>
+        <li><a routerLink = "aboutUS">About US</a></li>
+        <li>
+          <a (click)="toggleDropdown()">Services</a>
+          <ul *ngIf="dropdownOpen">
+            <li><a routerLink="commercial">Commercial</a></li>
+            <li><a routerLink="landDev">Land Development</a></li>
+            <li><a routerLink="publicWorks">Public Works</a></li>
+          </ul>
+        </li>
+
+
+
+    <li><a href = "#">PortFolio</a></li>
+    <li><a href="#">Contact </a></li>
+    </ul>
+    </nav>
+  </header>
+  <router-outlet></router-outlet>
+  </div>

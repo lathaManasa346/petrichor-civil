@@ -9,6 +9,10 @@ import { ServicesComponent } from './services/services.component';
 import { HeaderComponent } from './header/header.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ReferencesComponent } from './references/references.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { CommercialComponent } from './services/commercial/commercial.component';
+import { LandDevelopmentComponent } from './services/land-development/land-development.component';
+import { PublicWorksComponent } from './services/public-works/public-works.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { ReferencesComponent } from './references/references.component';
     ServicesComponent,
     HeaderComponent,
     NotFoundComponent,
-    ReferencesComponent
+    ReferencesComponent,
+    ProjectsComponent,
+    CommercialComponent,
+    LandDevelopmentComponent,
+    PublicWorksComponent
   ],
   imports: [
     BrowserModule,
