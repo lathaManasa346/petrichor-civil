@@ -155,11 +155,14 @@ section{
   place-items: center;
   position: relative;
   background-color: rgb(213, 196, 223);
+  overflow: hidden;
+  width: 100vw; 
 
 }
 
 section::before{
   background-size: cover;
+  background-position: center;
   content: '';
   position:absolute;
   inset: 0;
@@ -206,14 +209,7 @@ span{
 
 }
 
-// .portfolio {
-//   background: #073761 !important;
-//   color: white;
-//   // justify-content: center;
-//   text-decoration: none;
-//   font-size:25px;
-//   border-radius: 90vh;
-// }
+
 .content h1 {
   // margin-bottom: 10px;
   justify-content: center;
@@ -222,3 +218,13 @@ span{
 .content span {
   display: block; /* Display the span as a block element to move it to the next line */
 }
+
+
+// .portfolio {
+//   background: #073761 !important;
+//   color: white;
+//   // justify-content: center;
+//   text-decoration: none;
+//   font-size:25px;
+//   border-radius: 90vh;
+// }

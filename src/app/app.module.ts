@@ -13,6 +13,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { CommercialComponent } from './services/commercial/commercial.component';
 import { LandDevelopmentComponent } from './services/land-development/land-development.component';
 import { PublicWorksComponent } from './services/public-works/public-works.component';
+import { PorfolioComponent } from './porfolio/porfolio.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PublicWorksComponent } from './services/public-works/public-works.compo
     ProjectsComponent,
     CommercialComponent,
     LandDevelopmentComponent,
-    PublicWorksComponent
+    PublicWorksComponent,
+    PorfolioComponent
   ],
   imports: [
     BrowserModule,

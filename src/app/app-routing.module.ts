@@ -9,6 +9,7 @@ import { ReferencesComponent } from './references/references.component';
 import { ServicesComponent } from './services/services.component';
 import { LandDevelopmentComponent } from './services/land-development/land-development.component';
 import { PublicWorksComponent } from './services/public-works/public-works.component';
+import { PorfolioComponent } from './porfolio/porfolio.component';
 
 const routes: Routes = [
   {
@@ -23,13 +24,7 @@ const routes: Routes = [
   { path: 'commercial', component: CommercialComponent },
   { path: 'landDev', component: LandDevelopmentComponent },
   { path: 'publicWorks', component: PublicWorksComponent },
-  // {
-  //   path: 'services',
-  //   component: ServicesComponent,
-  //   children: [
-
-  //   ]
-  // },
+  { path: 'portfolio', component: PorfolioComponent },
   {
     path: 'references', component: ReferencesComponent
   },
